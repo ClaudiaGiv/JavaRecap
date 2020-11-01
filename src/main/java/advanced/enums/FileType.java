@@ -1,4 +1,4 @@
-package advanced;
+package advanced.enums;
 
 public enum FileType {
     XML("xml",1), JSON("json",2), HTML("html",3);

@@ -1,4 +1,4 @@
-package advanced;
+package advanced.enums;
 
 import java.util.HashMap;
 import java.util.HashSet;

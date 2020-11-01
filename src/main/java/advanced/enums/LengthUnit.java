@@ -1,4 +1,4 @@
-package advanced;
+package advanced.enums;
 
 public enum LengthUnit {
 
