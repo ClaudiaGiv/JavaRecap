@@ -1,6 +1,6 @@
 package fundamentals;
 
-class InverareElementeArray {
+class InversareElementeArray {
 
 
     public static void main(String[] args) {

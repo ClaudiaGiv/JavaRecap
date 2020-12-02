@@ -13,7 +13,24 @@ public class BookStore {
             add(new Book(2003, "B", Genre.LITERATURE));
             add(new Book(1990, "C", Genre.PSHYCHOLOGY));
         }};
+
+
+
+
+//        booksOrderedByYear = new TreeSet<>(new Comparator<Book>() {
+//            @Override
+//            public int compare(Book o1, Book o2) {
+//                return o1.year - o2.year;
+//            }
+//        })
+
+//        booksOrderedByYear = new TreeSet<Book>((o1, o2) -> o1.year-o2.year){{
+//            add(new Book(2001, "A", Genre.LITERATURE));
+//            add(new Book(2003, "B", Genre.LITERATURE));
+//            add(new Book(1990, "C", Genre.PSHYCHOLOGY));
+//        }};;
     }
+
 
     public void addBook(Book b) {
         booksOrderedByYear.add(b);
