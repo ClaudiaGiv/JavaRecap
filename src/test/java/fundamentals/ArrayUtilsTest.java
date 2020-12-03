@@ -50,15 +50,7 @@ public class ArrayUtilsTest {
     @ParameterizedTest
     @CsvSource({"mare,rema,true", "mare,rexa,false"})
     void verifyAreCircularPermuted(String s1, String s2, boolean arePermuted) {
-        System.out.println(s1);
-        System.out.println(s2);
-        System.out.println(arePermuted);
         assertEquals(arePermuted, StringUtils.areCircularPermuted(s1,s2));
-        HashMap a;
-        LinkedHashMap b;
-        TreeSet c;
-        TreeMap f;
-
     }
 
 }
