@@ -6,7 +6,7 @@ import java.util.function.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class Functional {
+public class Functional extends Exception{
 
     public static String concatenateIntegers(Integer x, Integer y){
         return x.toString()+y.toString();
@@ -52,6 +52,10 @@ public class Functional {
         Predicate<Integer> predicate = x -> x>10;
         boolean result = predicate.test(12);
         System.out.println(result);
+
+        //Supplier
+        Supplier<Double> random = () -> Math.random();
+        System.out.println(random.get());
 
         //Bifunction
         BiFunction<Integer, Integer, String> biFunction = (x,y) -> x.toString()+y.toString();

@@ -1,5 +1,7 @@
 package fundamentals;
 
+import fundamentals.exercises.ArrayUtils;
+import fundamentals.exercises.StringUtils;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;

@@ -3,6 +3,13 @@ package algorithms.recursion;
 public class Recursion {
 
     int power(int x, int pow) {
+        if (pow == 0)
+            return 0;
+        pow = pow - 1;
+        return  x* power(x, pow);
+    }
+
+    int power1(int x, int pow) {
         System.out.printf("x = %d, pow=%d\n", x, pow);
         if (pow == 0)
             return 0;

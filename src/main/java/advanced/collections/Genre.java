@@ -1,5 +1,5 @@
 package advanced.collections;
 
 public enum Genre {
-    SCIENCE, LITERATURE, PSHYCHOLOGY;
+    DRAMA, HORROR, SCIFI;
 }
